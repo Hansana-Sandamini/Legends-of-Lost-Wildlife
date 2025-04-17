@@ -17,12 +17,10 @@ h1 {
 }
 
 .description {
-  max-width: 1500px;
-  margin: 30px auto;
-  padding: 25px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  margin: 20px auto;
+  padding: 10px;
+  padding-bottom: 0px;
 }
 
 .description h2 {
@@ -41,7 +39,6 @@ h1 {
 
 .container {
   padding: 20px;
-  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -50,13 +47,13 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 .case-box {
   display: flex;
   flex-direction: column;
-  width: 450px;
+  width: 30%;
   background-color: white;
   border-radius: 12px;
   overflow: hidden;
@@ -72,8 +69,10 @@ h1 {
 }
 
 .case-box img {
-  width: 100%;
-  height: 280px;
+  margin-left: 10%;
+  margin-bottom: 8px;
+  width: 80%;
+  height: 350px;
   object-fit: cover;
   border-bottom: 1px solid #eee;
 }
