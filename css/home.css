@@ -1,0 +1,124 @@
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  gap: 30px;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+}
+
+.hero {
+  flex: 1 1 60%;
+  max-width: 60%;
+}
+
+.extinction-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.extinction-image:hover {
+  transform: scale(1.02);
+}
+
+.sidebar {
+  flex: 1 1 35%;
+  background-color: rgb(39, 39, 75);
+  color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  align-self: flex-start;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  color: #ecf0f1;
+  font-size: 1.4rem;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #3498db;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+
+.sidebar ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: block;
+  font-size: 1.15rem;
+}
+
+.sidebar ul li a:hover {
+  color: rgb(191, 191, 236);
+  padding-left: 5px;
+}
+
+.description {
+  flex: 1 1 100%;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.description h2 {
+  color: #2c3e50;
+  margin-top: 0;
+  font-size: 2.2rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.description p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+
+.additional-content {
+  margin: 30px 20px;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.additional-content h3 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-top: 0;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.additional-content p {
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
