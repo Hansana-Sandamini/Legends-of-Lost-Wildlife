@@ -7,6 +7,10 @@ body {
   line-height: 1.6;
 }
 
+html {
+  scroll-padding-top: 12vh;
+}
+
 header {
   height: 8vh;
   position: fixed;
