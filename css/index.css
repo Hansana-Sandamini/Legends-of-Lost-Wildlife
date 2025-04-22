@@ -87,9 +87,22 @@ nav ul li:last-of-type a {
   font-size: 24px;
   color: #fff;
   cursor: pointer;
-  position: absolute;
+  position: relative;
   right: 20px;
   z-index: 1000;
+}
+
+#burger-icon .fa-bars,
+#burger-icon .fa-times {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+}
+
+#burger-icon .fa-times {
+  opacity: 0;
 }
 
 footer {
@@ -223,10 +236,6 @@ footer {
     font-size: 1.6rem;
   }
 
-  /* nav input[type="text"] {
-    width: 70%;
-  } */
-
   .description h2,
   .additional-content h3 {
     font-size: 1.3rem;
@@ -242,20 +251,12 @@ footer {
   .logo h1 {
     font-size: 1.4rem;
   }
-
-  /* nav input[type="text"] {
-    width: 65%;
-  } */
 }
 
 @media (max-width: 320px) {
   .logo h1 {
     font-size: 1.4rem;
   }
-
-  /* nav input[type="text"] {
-    width: 60%;
-  } */
 
   .description h2,
   .additional-content h3 {
