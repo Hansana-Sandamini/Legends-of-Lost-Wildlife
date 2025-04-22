@@ -9,6 +9,7 @@
   max-width: 90%;
   margin: 0 auto;
   padding: 0 20px;
+  padding-top: 10vh;
 }
 
 .main-content {
@@ -128,4 +129,97 @@
 .additional-content p {
   font-size: 1.4rem;
   line-height: 1.7;
+}
+
+@media (max-width: 1440px) {
+  .hero {
+    flex: 1 1 55%;
+    max-width: 55%;
+  }
+  .sidebar {
+    flex: 1 1 40%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    flex: 1 1 50%;
+    max-width: 50%;
+  }
+  .sidebar {
+    flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    margin: 15px;
+    gap: 20px;
+  }
+
+  .hero,
+  .sidebar {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .description h2,
+  .additional-content h3 {
+    font-size: 2rem;
+  }
+
+  .description p,
+  .additional-content p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .content-container {
+    margin: 10px;
+    gap: 15px;
+  }
+
+  .sidebar {
+    padding: 15px;
+  }
+
+  .description,
+  .additional-content {
+    padding: 15px;
+  }
+
+  .description h2,
+  .additional-content h3 {
+    font-size: 1.8rem;
+  }
+
+  .description p,
+  .additional-content p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .description h2,
+  .additional-content h3 {
+    font-size: 1.7rem;
+  }
+
+  .description p,
+  .additional-content p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .description h2,
+  .additional-content h3 {
+    font-size: 1.6rem;
+  }
+
+  .description p,
+  .additional-content p {
+    font-size: 1rem;
+  }
 }

@@ -7,6 +7,19 @@ body {
   line-height: 1.6;
 }
 
+main {
+  padding-top: 10vh;
+}
+
+header {
+  height: 8vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
 h1 {
   text-align: center;
   color: white;
@@ -90,4 +103,163 @@ h1 {
   line-height: 1.7;
   color: #555;
   font-size: 1.3rem;
+}
+
+@media (max-width: 1440px) {
+  .case-box {
+    width: 45%;
+  }
+
+  .description p {
+    font-size: 1.3rem;
+  }
+
+  .case-box p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .case-box {
+    width: 45%;
+  }
+
+  .case-box img {
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    padding: 20px;
+  }
+
+  .description h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  main {
+    padding-top: 8vh;
+  }
+
+  .case-box {
+    width: 80%;
+  }
+
+  .case-container {
+    gap: 30px;
+  }
+
+  .description {
+    width: 90%;
+  }
+
+  .description p {
+    font-size: 1.3rem;
+  }
+
+  .case-box p {
+    font-size: 1.22rem;
+  }
+
+  .case-box img {
+    height: 280px;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 1.6rem;
+    padding: 15px;
+  }
+
+  main {
+    padding-top: 6vh;
+  }
+
+  .description h2 {
+    font-size: 1.4rem;
+  }
+
+  .case-box {
+    width: 90%;
+  }
+
+  .case-box img {
+    height: 250px;
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .case-box h3 {
+    padding: 15px 15px 8px;
+    font-size: 1.3rem;
+  }
+
+  .case-box p {
+    padding: 0 15px 15px;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .description h2 {
+    font-size: 1.2rem;
+  }
+
+  .description p {
+    font-size: 1rem;
+  }
+
+  .case-box p {
+    font-size: 0.95rem;
+  }
+
+  .case-box img {
+    height: 220px;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 1.4rem;
+    padding: 12px;
+  }
+
+  .description h2 {
+    font-size: 1.2rem;
+  }
+
+  .description p {
+    font-size: 0.9rem;
+  }
+
+  .case-box p {
+    font-size: 0.85rem;
+  }
+
+  .case-box {
+    width: 95%;
+  }
+
+  .case-box img {
+    height: 200px;
+  }
+
+  .case-box h3 {
+    font-size: 1.1rem;
+    padding: 12px 12px 6px;
+  }
 }
